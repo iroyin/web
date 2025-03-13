@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Guardados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Datos Guardados</h1>
+        <pre id="datos"></pre>
+        <a href="index.html">Volver al formulario</a>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const datos = localStorage.getItem("formularioDatos");
+            document.getElementById("datos").textContent = datos ? JSON.stringify(JSON.parse(datos), null, 4) : "No hay datos guardados.";
+        });
+    </script>
+</body>
+</html>

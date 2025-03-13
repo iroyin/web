@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario por Voz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <!--<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>-->
+</head>
+<body>
+    <div class="container">
+        <button class="modo-oscuro-btn" id="modoOscuroBtn">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="nota"> 
+            <strong>Instrucciones:</strong> Use comandos de voz para completar el formulario. 
+            Diga el nombre del campo seguido del valor. 
+            <br><br>
+            <strong>Ejemplo:</strong> "Nombre Juan Pérez"
+            <br><br>
+            <strong>Nota:</strong> Debe esperar a que se llene correctamente cada campo antes de proseguir con el siguiente.
+            <br><br>
+            <strong>Guardar:</strong> Debe decir "Guardar Formulario" para poder continuar con la siguiente página
+        </div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+
+        <label for="cedula">Cédula</label>
+        <input type="text" id="cedula">
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono">
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion">
+
+        <div class="button-group">
+            <button id="voiceCommandBtn" class="voice-btn">
+                <i class="fas fa-microphone"></i> Activar Voz
+            </button>
+            <button id="guardarBtn" class="save-btn">Guardar</button>
+        </div>
+    </div>
+</body>
+</html>
