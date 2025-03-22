@@ -6,7 +6,35 @@ document.addEventListener("DOMContentLoaded", () => {
     const clearHistoryBtn = document.getElementById("clear-history");
     const downloadHistoryBtn = document.getElementById("download-history");
     const historyTable = document.getElementById("history");
+    const difficultySelect = document.getElementById("difficulty-select");
+    const questionElem = document.getElementById("suggested-question");
+
+
+
+    // Preguntas por nivel
+    const questions = {
+        easy: ["What is your name?", "How old are you?", "Where are you from?"],
+        medium: ["What did you do yesterday?", "Can you describe your best friend?", "What are your hobbies?"],
+        hard: ["If you could travel anywhere, where would you go and why?", "What is the most difficult challenge you have faced?", "Describe your ideal job and why it suits you."]
+    };
+
+    function setRandomQuestion() {
+        const level = difficultySelect.value;
+        const questionList = questions[level];
+        const randomIndex = Math.floor(Math.random() * questionList.length);
+        questionElem.textContent = questionList[randomIndex];
+    }
+
+    if (difficultySelect) {
+        difficultySelect.addEventListener("change", setRandomQuestion);
+        setRandomQuestion();
+    }
+
     
+
+    difficultySelect.addEventListener("change", setRandomQuestion);
+    setRandomQuestion();
+
     // Toggle Dark Mode
     toggleThemeBtn.addEventListener("click", () => {
         document.body.classList.toggle("dark-mode");

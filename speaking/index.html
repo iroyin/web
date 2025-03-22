@@ -10,8 +10,20 @@
 <body>
     <div class="container">
         <h1>Speech Grammar Correction</h1>
+        
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty-select">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        
         <button id="start-recording">🎤 Start Recording</button>
         <button id="toggle-theme">🌙 Toggle Dark Mode</button>
+        
+        <h2>Suggested Question</h2>
+        <p id="suggested-question">...</p>
+        
         <p><strong>Recognized Text:</strong> <span id="recognized-text">...</span></p>
         <p><strong>Suggested Correction:</strong> <span id="suggested-correction">...</span></p>
         
