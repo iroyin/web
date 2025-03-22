@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Grammar Correction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Speech Grammar Correction</h1>
+        <button id="toggle-theme">🌙 Toggle Dark Mode</button>
+        <button id="start-recording">🎤 Start Recording</button>
+        <p><strong>Recognized Text:</strong> <span id="recognized-text">...</span></p>
+        <p><strong>Suggested Correction:</strong> <span id="suggested-correction">...</span></p>
+        
+        <h2>Conversation History</h2>
+        <div class="history-actions" style="display: flex; gap: 10px; align-items: center;">
+            <button id="clear-history" class="icon-button"><i class="fas fa-trash"></i></button>
+            <button id="download-history" class="icon-button"><i class="fas fa-download"></i></button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>User Input</th>
+                    <th>Correction Needed</th>
+                    <th>Correction</th>
+                </tr>
+            </thead>
+            <tbody id="history"></tbody>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
