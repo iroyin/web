@@ -62,3 +62,35 @@ async function translateText(text, targetLang) {
         return "Error en la traducción";
     }
 }
+
+function saveToHistory(original, translated) {
+    let history = JSON.parse(localStorage.getItem("translationHistory")) || [];
+    
+    // Agregar nueva traducción al inicio
+    history.unshift({ original, translated });
+
+    // Limitar el historial a 10 elementos
+    history = history.slice(0, 10);
+
+    // Guardar en localStorage
+    localStorage.setItem("translationHistory", JSON.stringify(history));
+
+    // Actualizar la UI
+    updateHistoryUI();
+}
+
+function updateHistoryUI() {
+    const historyDiv = document.getElementById("history");
+    let history = JSON.parse(localStorage.getItem("translationHistory")) || [];
+
+    // Verificar si hay historial para mostrar
+    if (history.length === 0) {
+        historyDiv.innerHTML = "<p>No hay traducciones recientes.</p>";
+        return;
+    }
+
+    // Construir el historial en HTML
+    historyDiv.innerHTML = history.map(entry => 
+        `<p><strong>${entry.original}</strong> → ${entry.translated}</p>`
+    ).join("");
+}
