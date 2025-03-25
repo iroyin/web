@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Verbos Irregulares</title>
+    <link rel="stylesheet" href="styleVerbs.css">
+    <style>
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button">
+        <button onclick="goBack()">Volver</button>
+    </div>
+    <h1>Lista de Verbos Irregulares</h1>
+    <br><br>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Base</th>
+                <th>Pasado</th>
+                <th>Participio</th>
+                <th>Significado</th>
+            </tr>
+        </thead>
+        <tbody id="verbsTableBody">
+            <!-- Aquí se insertarán los verbos dinámicamente -->
+        </tbody>
+    </table>
+    <script src="verbs.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const tableBody = document.getElementById("verbsTableBody");
+            
+            verbs.forEach(verb => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${verb.baseVerb}</td>
+                    <td>${verb.passVerb}</td>
+                    <td>${verb.participeVerb}</td>
+                    <td>${verb.inSpanish}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        });
+        
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

@@ -43,3 +43,13 @@ button:hover {
 .incorrect {
     color: red;
 }
+
+.nota {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    border-left: 5px solid #ffecb5;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
