@@ -42,7 +42,7 @@ window.verbs = [
     { baseVerb: "fly", passVerb: "flew", participeVerb: "flown", inSpanish: "volar" },
     { baseVerb: "forget", passVerb: "forgot", participeVerb: "forgotten", inSpanish: "olvidar" },
     { baseVerb: "forgive", passVerb: "forgave", participeVerb: "forgiven", inSpanish: "perdonar" },
-    { baseVerb: "freeze", passVerb: "froze", participeVerb: "frozen", inSpanish: "congelar" }
+    { baseVerb: "freeze", passVerb: "froze", participeVerb: "frozen", inSpanish: "congelar" },
     { baseVerb: "get", passVerb: "got", participeVerb: "gotten", inSpanish: "obtener" },
     { baseVerb: "give", passVerb: "gave", participeVerb: "given", inSpanish: "dar" },
     { baseVerb: "go", passVerb: "went", participeVerb: "gone", inSpanish: "ir" },
@@ -89,7 +89,7 @@ window.verbs = [
     { baseVerb: "speak", passVerb: "spoke", participeVerb: "spoken", inSpanish: "hablar" },
     { baseVerb: "spend", passVerb: "spent", participeVerb: "spent", inSpanish: "gastar" },
     { baseVerb: "stand", passVerb: "stood", participeVerb: "stood", inSpanish: "estar de pie" },
-    { baseVerb: "steal", passVerb: "stole", participeVerb: "stolen", inSpanish: "robar" }
+    { baseVerb: "steal", passVerb: "stole", participeVerb: "stolen", inSpanish: "robar" },
     { baseVerb: "swim", passVerb: "swam", participeVerb: "swum", inSpanish: "nadar" },
     { baseVerb: "take", passVerb: "took", participeVerb: "taken", inSpanish: "tomar" },
     { baseVerb: "teach", passVerb: "taught", participeVerb: "taught", inSpanish: "enseñar" },
@@ -136,7 +136,7 @@ window.verbs = [
     { baseVerb: "drive", passVerb: "drove", participeVerb: "driven", inSpanish: "conducir" },
     { baseVerb: "eat", passVerb: "ate", participeVerb: "eaten", inSpanish: "comer" },
     { baseVerb: "fall", passVerb: "fell", participeVerb: "fallen", inSpanish: "caer" },
-    { baseVerb: "feed", passVerb: "fed", participeVerb: "fed", inSpanish: "alimentar" }
+    { baseVerb: "feed", passVerb: "fed", participeVerb: "fed", inSpanish: "alimentar" },
     { baseVerb: "feel", passVerb: "felt", participeVerb: "felt", inSpanish: "sentir" },
     { baseVerb: "fight", passVerb: "fought", participeVerb: "fought", inSpanish: "pelear" },
     { baseVerb: "find", passVerb: "found", participeVerb: "found", inSpanish: "encontrar" },
@@ -183,7 +183,7 @@ window.verbs = [
     { baseVerb: "set", passVerb: "set", participeVerb: "set", inSpanish: "colocar" },
     { baseVerb: "shake", passVerb: "shook", participeVerb: "shaken", inSpanish: "agitar" },
     { baseVerb: "shoot", passVerb: "shot", participeVerb: "shot", inSpanish: "disparar" },
-    { baseVerb: "show", passVerb: "showed", participeVerb: "shown", inSpanish: "mostrar" }
+    { baseVerb: "show", passVerb: "showed", participeVerb: "shown", inSpanish: "mostrar" },
     { baseVerb: "sing", passVerb: "sang", participeVerb: "sung", inSpanish: "cantar" },
     { baseVerb: "sit", passVerb: "sat", participeVerb: "sat", inSpanish: "sentarse" },
     { baseVerb: "sleep", passVerb: "slept", participeVerb: "slept", inSpanish: "dormir" },
