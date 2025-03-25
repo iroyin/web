@@ -1,6 +1,8 @@
 let verbs = [];
 let currentVerb = {};
 let answered = false; // Flag para controlar el estado de la respuesta
+let totalAttempts = 0;
+let totalCorrect = 0;
 
 // Importa los verbos directamente desde el archivo verbs.js
 verbs = window.verbs;
@@ -18,7 +20,7 @@ function getRandomVerb() {
     document.getElementById('participeVerb').value = '';
     document.getElementById('resultMessage').textContent = '';
     
-    // Restablece el color del borde
+    // Restablece el color del borde y el resultado de aciertos
     resetFields();
     
     // Restablece el texto del botón
@@ -37,10 +39,12 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
         const participle = participleInput.value.trim().toLowerCase();
 
         let isCorrect = true;
+        let correctCount = 0; // Contador de respuestas correctas
 
         // Verificar respuestas y cambiar el borde
         if (base === currentVerb.baseVerb) {
             baseInput.style.borderColor = 'green';
+            correctCount++;
         } else {
             baseInput.style.borderColor = 'red';
             isCorrect = false;
@@ -48,6 +52,7 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
 
         if (past === currentVerb.passVerb) {
             pastInput.style.borderColor = 'green';
+            correctCount++;
         } else {
             pastInput.style.borderColor = 'red';
             isCorrect = false;
@@ -55,10 +60,18 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
 
         if (participle === currentVerb.participeVerb) {
             participleInput.style.borderColor = 'green';
+            correctCount++;
         } else {
             participleInput.style.borderColor = 'red';
             isCorrect = false;
         }
+
+        // Calcular el porcentaje de acierto
+        let accuracy = (correctCount / 3) * 100;
+        totalAttempts++;
+        totalCorrect += accuracy;
+
+        document.getElementById('resultCore').textContent = `Acierto: ${accuracy.toFixed(2)}%`;
 
         if (isCorrect) {
             document.getElementById('resultMessage').textContent = '¡Correcto!';
@@ -82,6 +95,7 @@ function resetFields() {
     document.getElementById('pastVerb').style.borderColor = '';
     document.getElementById('participeVerb').style.borderColor = '';
     document.getElementById('resultMessage').textContent = '';
+    document.getElementById('resultCore').textContent = ''; // Limpia el porcentaje de acierto
     document.getElementById('checkAnswer').textContent = 'Verificar';
     answered = false;
 }
