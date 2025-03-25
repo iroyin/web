@@ -10,20 +10,16 @@ const historialTitulo = document.getElementById("historialTitulo");
 const sonidoClick = new Audio("click.mp3");
 const sonidoResultado = new Audio("resultado.mp3");
 
-
-// Cargar historial al iniciar
 document.addEventListener("DOMContentLoaded", cargarHistorial);
 
 let idiomaActual = localStorage.getItem("idioma") || "es";
 actualizarIdioma();
 
-// Cargar modo oscuro si estaba activado antes
 if (localStorage.getItem("modoOscuro") === "true") {
     document.body.classList.add("dark-mode");
     modoButton.textContent = "☀️ Modo Claro";
 }
 
-// Cambiar entre modos
 modoButton.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
     const esOscuro = document.body.classList.contains("dark-mode");
@@ -31,14 +27,12 @@ modoButton.addEventListener("click", () => {
     modoButton.textContent = esOscuro ? "☀️ Modo Claro" : "🌙 Modo Oscuro";
 });
 
-// Cambiar idioma
 idiomaButton.addEventListener("click", () => {
     idiomaActual = idiomaActual === "es" ? "en" : "es";
     localStorage.setItem("idioma", idiomaActual);
     actualizarIdioma();
 });
 
-// Actualiza textos según el idioma seleccionado
 function actualizarIdioma() {
     if (idiomaActual === "es") {
         idiomaButton.textContent = "🇪🇸 Español";
@@ -57,7 +51,6 @@ function actualizarIdioma() {
     }
 }
 
-// Configuración de reconocimiento de voz
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
 recognition.lang = idiomaActual === "es" ? "es-ES" : "en-US";
 recognition.interimResults = false;
@@ -68,7 +61,6 @@ startButton.addEventListener("click", () => {
     vibrar(100);
 });
 
-// Procesar voz
 recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     resultado.value = transcript;
@@ -79,14 +71,12 @@ recognition.onerror = (event) => {
     alert("Error en el reconocimiento de voz: " + event.error);
 };
 
-// Procesar entrada manual al presionar "Enter"
 resultado.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
         procesarOperacion(resultado.value);
     }
 });
 
-// Procesa operaciones en ambos idiomas
 function procesarOperacion(entrada) {
     try {
         let operacion = entrada.toLowerCase();
@@ -122,11 +112,11 @@ function procesarOperacion(entrada) {
         leerResultado(resultadoOperacion);
         playSound(sonidoResultado);
     } catch (error) {
+        console.log(error);
         resultado.value = idiomaActual === "es" ? "Error en la operación" : "Error in operation";
     }
 }
 
-// Función para calcular factorial de forma segura
 function factorial(n) {
     if (n === 0 || n === 1) return 1;
     let result = 1;
@@ -136,24 +126,21 @@ function factorial(n) {
     return result;
 }
 
-// Evalúa la operación matemáticamente sin `eval()`
 function evaluarOperacion(expresion) {
     try {
-        return new Function(`"use strict"; return (${expresion})`)();
+        return Function(`"use strict"; return (${expresion})`)();
     } catch (error) {
         throw new Error("Expresión no válida");
     }
 }
 
-// Agrega el cálculo al historial
 function agregarAlHistorial(texto) {
     const li = document.createElement("li");
     li.textContent = texto;
-    historialLista.prepend(li);  
-    guardarHistorial(texto); 
+    historialLista.prepend(li);
+    guardarHistorial(texto);
 }
 
-// Lee el resultado en voz alta en el idioma correcto
 function leerResultado(resultado) {
     const synth = window.speechSynthesis;
     const utterance = new SpeechSynthesisUtterance(
@@ -162,45 +149,33 @@ function leerResultado(resultado) {
     synth.speak(utterance);
 }
 
-
-
-
-// Función para reproducir sonido
 function playSound(sonido) {
     sonido.currentTime = 0;
     sonido.play();
 }
 
-// Función para vibrar en móviles
 function vibrar(duracion = 200) {
     if (navigator.vibrate) {
         navigator.vibrate(duracion);
     }
 }
 
-// Agregar sonidos a los botones
 [startButton, clearButton].forEach(boton => {
     boton.addEventListener("click", () => playSound(sonidoClick));
 });
 
-
-// Función para guardar historial en LocalStorage
 function guardarHistorial(texto) {
     let historial = JSON.parse(localStorage.getItem("historial")) || [];
-    historial.unshift(texto); // Agrega al inicio
+    historial.unshift(texto);
     localStorage.setItem("historial", JSON.stringify(historial));
 }
 
-// Cargar historial guardado al recargar la página
 function cargarHistorial() {
     let historial = JSON.parse(localStorage.getItem("historial")) || [];
-    
-    historialLista.innerHTML = "";  
-
+    historialLista.innerHTML = "";
     historial.forEach(item => agregarAlHistorial(item));
 }
 
-// Limpiar historial de pantalla y LocalStorage
 clearButton.addEventListener("click", () => {
     resultado.value = "";
     historialLista.innerHTML = "";

@@ -1,0 +1,1220 @@
+[
+    {
+        "baseVerb": "arise",
+        "passVerb": "arose",
+        "participeVerb": "arisen",
+        "inSpanish": "surgir, levantarse"
+    },
+    {
+        "baseVerb": "awake",
+        "passVerb": "awoke",
+        "participeVerb": "awoken",
+        "inSpanish": "despertar"
+    },
+    {
+        "baseVerb": "be",
+        "passVerb": "was/were",
+        "participeVerb": "been",
+        "inSpanish": "ser, estar"
+    },
+    {
+        "baseVerb": "bear",
+        "passVerb": "bore",
+        "participeVerb": "borne/born",
+        "inSpanish": "soportar, dar a luz"
+    },
+    {
+        "baseVerb": "beat",
+        "passVerb": "beat",
+        "participeVerb": "beaten",
+        "inSpanish": "golpear, vencer"
+    },
+    {
+        "baseVerb": "become",
+        "passVerb": "became",
+        "participeVerb": "become",
+        "inSpanish": "convertirse en"
+    },
+    {
+        "baseVerb": "begin",
+        "passVerb": "began",
+        "participeVerb": "begun",
+        "inSpanish": "empezar"
+    },
+    {
+        "baseVerb": "bend",
+        "passVerb": "bent",
+        "participeVerb": "bent",
+        "inSpanish": "doblar"
+    },
+    {
+        "baseVerb": "bet",
+        "passVerb": "bet",
+        "participeVerb": "bet",
+        "inSpanish": "apostar"
+    },
+    {
+        "baseVerb": "bind",
+        "passVerb": "bound",
+        "participeVerb": "bound",
+        "inSpanish": "atar, encuadernar"
+    },
+    {
+        "baseVerb": "bite",
+        "passVerb": "bit",
+        "participeVerb": "bitten",
+        "inSpanish": "morder"
+    },
+    {
+        "baseVerb": "bleed",
+        "passVerb": "bled",
+        "participeVerb": "bled",
+        "inSpanish": "sangrar"
+    },
+    {
+        "baseVerb": "blow",
+        "passVerb": "blew",
+        "participeVerb": "blown",
+        "inSpanish": "soplar"
+    },
+    {
+        "baseVerb": "break",
+        "passVerb": "broke",
+        "participeVerb": "broken",
+        "inSpanish": "romper"
+    },
+    {
+        "baseVerb": "breed",
+        "passVerb": "bred",
+        "participeVerb": "bred",
+        "inSpanish": "criar, reproducir"
+    },
+    {
+        "baseVerb": "bring",
+        "passVerb": "brought",
+        "participeVerb": "brought",
+        "inSpanish": "traer"
+    },
+    {
+        "baseVerb": "broadcast",
+        "passVerb": "broadcast",
+        "participeVerb": "broadcast",
+        "inSpanish": "transmitir"
+    },
+    {
+        "baseVerb": "build",
+        "passVerb": "built",
+        "participeVerb": "built",
+        "inSpanish": "construir"
+    },
+    {
+        "baseVerb": "burn",
+        "passVerb": "burnt/burned",
+        "participeVerb": "burnt/burned",
+        "inSpanish": "quemar"
+    },
+    {
+        "baseVerb": "burst",
+        "passVerb": "burst",
+        "participeVerb": "burst",
+        "inSpanish": "estallar"
+    },
+    {
+        "baseVerb": "buy",
+        "passVerb": "bought",
+        "participeVerb": "bought",
+        "inSpanish": "comprar"
+    },
+    {
+        "baseVerb": "cast",
+        "passVerb": "cast",
+        "participeVerb": "cast",
+        "inSpanish": "lanzar"
+    },
+    {
+        "baseVerb": "catch",
+        "passVerb": "caught",
+        "participeVerb": "caught",
+        "inSpanish": "atrapar"
+    },
+    {
+        "baseVerb": "choose",
+        "passVerb": "chose",
+        "participeVerb": "chosen",
+        "inSpanish": "elegir"
+    },
+    {
+        "baseVerb": "come",
+        "passVerb": "came",
+        "participeVerb": "come",
+        "inSpanish": "venir"
+    },
+    {
+        "baseVerb": "cost",
+        "passVerb": "cost",
+        "participeVerb": "cost",
+        "inSpanish": "costar"
+    },
+    {
+        "baseVerb": "cut",
+        "passVerb": "cut",
+        "participeVerb": "cut",
+        "inSpanish": "cortar"
+    },
+    {
+        "baseVerb": "deal",
+        "passVerb": "dealt",
+        "participeVerb": "dealt",
+        "inSpanish": "tratar"
+    },
+    {
+        "baseVerb": "dig",
+        "passVerb": "dug",
+        "participeVerb": "dug",
+        "inSpanish": "cavar"
+    },
+    {
+        "baseVerb": "do",
+        "passVerb": "did",
+        "participeVerb": "done",
+        "inSpanish": "hacer"
+    },
+    {
+        "baseVerb": "draw",
+        "passVerb": "drew",
+        "participeVerb": "drawn",
+        "inSpanish": "dibujar"
+    },
+    {
+        "baseVerb": "dream",
+        "passVerb": "dreamt/dreamed",
+        "participeVerb": "dreamt/dreamed",
+        "inSpanish": "soñar"
+    },
+    {
+        "baseVerb": "drink",
+        "passVerb": "drank",
+        "participeVerb": "drunk",
+        "inSpanish": "beber"
+    },
+    {
+        "baseVerb": "drive",
+        "passVerb": "drove",
+        "participeVerb": "driven",
+        "inSpanish": "conducir"
+    },
+    {
+        "baseVerb": "eat",
+        "passVerb": "ate",
+        "participeVerb": "eaten",
+        "inSpanish": "comer"
+    },
+    {
+        "baseVerb": "fall",
+        "passVerb": "fell",
+        "participeVerb": "fallen",
+        "inSpanish": "caer"
+    },
+    {
+        "baseVerb": "feed",
+        "passVerb": "fed",
+        "participeVerb": "fed",
+        "inSpanish": "alimentar"
+    },
+    {
+        "baseVerb": "feel",
+        "passVerb": "felt",
+        "participeVerb": "felt",
+        "inSpanish": "sentir"
+    },
+    {
+        "baseVerb": "fight",
+        "passVerb": "fought",
+        "participeVerb": "fought",
+        "inSpanish": "pelear"
+    },
+    {
+        "baseVerb": "find",
+        "passVerb": "found",
+        "participeVerb": "found",
+        "inSpanish": "encontrar"
+    },
+    {
+        "baseVerb": "fly",
+        "passVerb": "flew",
+        "participeVerb": "flown",
+        "inSpanish": "volar"
+    },
+    {
+        "baseVerb": "forget",
+        "passVerb": "forgot",
+        "participeVerb": "forgotten",
+        "inSpanish": "olvidar"
+    },
+    {
+        "baseVerb": "forgive",
+        "passVerb": "forgave",
+        "participeVerb": "forgiven",
+        "inSpanish": "perdonar"
+    },
+    {
+        "baseVerb": "freeze",
+        "passVerb": "froze",
+        "participeVerb": "frozen",
+        "inSpanish": "congelar"
+    },
+    {
+        "baseVerb": "get",
+        "passVerb": "got",
+        "participeVerb": "gotten",
+        "inSpanish": "obtener"
+    },
+    {
+        "baseVerb": "give",
+        "passVerb": "gave",
+        "participeVerb": "given",
+        "inSpanish": "dar"
+    },
+    {
+        "baseVerb": "go",
+        "passVerb": "went",
+        "participeVerb": "gone",
+        "inSpanish": "ir"
+    },
+    {
+        "baseVerb": "grind",
+        "passVerb": "ground",
+        "participeVerb": "ground",
+        "inSpanish": "moler"
+    },
+    {
+        "baseVerb": "grow",
+        "passVerb": "grew",
+        "participeVerb": "grown",
+        "inSpanish": "crecer"
+    },
+    {
+        "baseVerb": "hang",
+        "passVerb": "hung",
+        "participeVerb": "hung",
+        "inSpanish": "colgar"
+    },
+    {
+        "baseVerb": "have",
+        "passVerb": "had",
+        "participeVerb": "had",
+        "inSpanish": "tener"
+    },
+    {
+        "baseVerb": "hear",
+        "passVerb": "heard",
+        "participeVerb": "heard",
+        "inSpanish": "oír"
+    },
+    {
+        "baseVerb": "hide",
+        "passVerb": "hid",
+        "participeVerb": "hidden",
+        "inSpanish": "esconder"
+    },
+    {
+        "baseVerb": "hit",
+        "passVerb": "hit",
+        "participeVerb": "hit",
+        "inSpanish": "golpear"
+    },
+    {
+        "baseVerb": "hold",
+        "passVerb": "held",
+        "participeVerb": "held",
+        "inSpanish": "sostener"
+    },
+    {
+        "baseVerb": "hurt",
+        "passVerb": "hurt",
+        "participeVerb": "hurt",
+        "inSpanish": "herir"
+    },
+    {
+        "baseVerb": "keep",
+        "passVerb": "kept",
+        "participeVerb": "kept",
+        "inSpanish": "mantener"
+    },
+    {
+        "baseVerb": "know",
+        "passVerb": "knew",
+        "participeVerb": "known",
+        "inSpanish": "saber, conocer"
+    },
+    {
+        "baseVerb": "lay",
+        "passVerb": "laid",
+        "participeVerb": "laid",
+        "inSpanish": "colocar"
+    },
+    {
+        "baseVerb": "lead",
+        "passVerb": "led",
+        "participeVerb": "led",
+        "inSpanish": "liderar"
+    },
+    {
+        "baseVerb": "leave",
+        "passVerb": "left",
+        "participeVerb": "left",
+        "inSpanish": "dejar"
+    },
+    {
+        "baseVerb": "lend",
+        "passVerb": "lent",
+        "participeVerb": "lent",
+        "inSpanish": "prestar"
+    },
+    {
+        "baseVerb": "let",
+        "passVerb": "let",
+        "participeVerb": "let",
+        "inSpanish": "permitir"
+    },
+    {
+        "baseVerb": "lie",
+        "passVerb": "lay",
+        "participeVerb": "lain",
+        "inSpanish": "mentir, acostarse"
+    },
+    {
+        "baseVerb": "light",
+        "passVerb": "lit/lighted",
+        "participeVerb": "lit/lighted",
+        "inSpanish": "encender"
+    },
+    {
+        "baseVerb": "lose",
+        "passVerb": "lost",
+        "participeVerb": "lost",
+        "inSpanish": "perder"
+    },
+    {
+        "baseVerb": "make",
+        "passVerb": "made",
+        "participeVerb": "made",
+        "inSpanish": "hacer"
+    },
+    {
+        "baseVerb": "mean",
+        "passVerb": "meant",
+        "participeVerb": "meant",
+        "inSpanish": "significar"
+    },
+    {
+        "baseVerb": "meet",
+        "passVerb": "met",
+        "participeVerb": "met",
+        "inSpanish": "conocer, encontrarse con"
+    },
+    {
+        "baseVerb": "pay",
+        "passVerb": "paid",
+        "participeVerb": "paid",
+        "inSpanish": "pagar"
+    },
+    {
+        "baseVerb": "put",
+        "passVerb": "put",
+        "participeVerb": "put",
+        "inSpanish": "poner"
+    },
+    {
+        "baseVerb": "read",
+        "passVerb": "read",
+        "participeVerb": "read",
+        "inSpanish": "leer"
+    },
+    {
+        "baseVerb": "ride",
+        "passVerb": "rode",
+        "participeVerb": "ridden",
+        "inSpanish": "montar"
+    },
+    {
+        "baseVerb": "ring",
+        "passVerb": "rang",
+        "participeVerb": "rung",
+        "inSpanish": "sonar"
+    },
+    {
+        "baseVerb": "rise",
+        "passVerb": "rose",
+        "participeVerb": "risen",
+        "inSpanish": "elevarse"
+    },
+    {
+        "baseVerb": "run",
+        "passVerb": "ran",
+        "participeVerb": "run",
+        "inSpanish": "correr"
+    },
+    {
+        "baseVerb": "say",
+        "passVerb": "said",
+        "participeVerb": "said",
+        "inSpanish": "decir"
+    },
+    {
+        "baseVerb": "see",
+        "passVerb": "saw",
+        "participeVerb": "seen",
+        "inSpanish": "ver"
+    },
+    {
+        "baseVerb": "sell",
+        "passVerb": "sold",
+        "participeVerb": "sold",
+        "inSpanish": "vender"
+    },
+    {
+        "baseVerb": "send",
+        "passVerb": "sent",
+        "participeVerb": "sent",
+        "inSpanish": "enviar"
+    },
+    {
+        "baseVerb": "set",
+        "passVerb": "set",
+        "participeVerb": "set",
+        "inSpanish": "colocar"
+    },
+    {
+        "baseVerb": "shake",
+        "passVerb": "shook",
+        "participeVerb": "shaken",
+        "inSpanish": "agitar"
+    },
+    {
+        "baseVerb": "shoot",
+        "passVerb": "shot",
+        "participeVerb": "shot",
+        "inSpanish": "disparar"
+    },
+    {
+        "baseVerb": "show",
+        "passVerb": "showed",
+        "participeVerb": "shown",
+        "inSpanish": "mostrar"
+    },
+    {
+        "baseVerb": "sing",
+        "passVerb": "sang",
+        "participeVerb": "sung",
+        "inSpanish": "cantar"
+    },
+    {
+        "baseVerb": "sit",
+        "passVerb": "sat",
+        "participeVerb": "sat",
+        "inSpanish": "sentarse"
+    },
+    {
+        "baseVerb": "sleep",
+        "passVerb": "slept",
+        "participeVerb": "slept",
+        "inSpanish": "dormir"
+    },
+    {
+        "baseVerb": "speak",
+        "passVerb": "spoke",
+        "participeVerb": "spoken",
+        "inSpanish": "hablar"
+    },
+    {
+        "baseVerb": "spend",
+        "passVerb": "spent",
+        "participeVerb": "spent",
+        "inSpanish": "gastar"
+    },
+    {
+        "baseVerb": "stand",
+        "passVerb": "stood",
+        "participeVerb": "stood",
+        "inSpanish": "estar de pie"
+    },
+    {
+        "baseVerb": "steal",
+        "passVerb": "stole",
+        "participeVerb": "stolen",
+        "inSpanish": "robar"
+    },
+    {
+        "baseVerb": "swim",
+        "passVerb": "swam",
+        "participeVerb": "swum",
+        "inSpanish": "nadar"
+    },
+    {
+        "baseVerb": "take",
+        "passVerb": "took",
+        "participeVerb": "taken",
+        "inSpanish": "tomar"
+    },
+    {
+        "baseVerb": "teach",
+        "passVerb": "taught",
+        "participeVerb": "taught",
+        "inSpanish": "enseñar"
+    },
+    {
+        "baseVerb": "tell",
+        "passVerb": "told",
+        "participeVerb": "told",
+        "inSpanish": "decir"
+    },
+    {
+        "baseVerb": "think",
+        "passVerb": "thought",
+        "participeVerb": "thought",
+        "inSpanish": "pensar"
+    },
+    {
+        "baseVerb": "throw",
+        "passVerb": "threw",
+        "participeVerb": "thrown",
+        "inSpanish": "lanzar"
+    },
+    {
+        "baseVerb": "understand",
+        "passVerb": "understood",
+        "participeVerb": "understood",
+        "inSpanish": "entender"
+    },
+    {
+        "baseVerb": "wear",
+        "passVerb": "wore",
+        "participeVerb": "worn",
+        "inSpanish": "usar (ropa)"
+    },
+    {
+        "baseVerb": "win",
+        "passVerb": "won",
+        "participeVerb": "won",
+        "inSpanish": "ganar"
+    },
+    {
+        "baseVerb": "write",
+        "passVerb": "wrote",
+        "participeVerb": "written",
+        "inSpanish": "escribir"
+    },
+    {
+        "baseVerb": "Infinitivo",
+        "passVerb": "Pasado Simple",
+        "participeVerb": "Participio Pasado",
+        "inSpanish": "Significado"
+    },
+    {
+        "baseVerb": "arise",
+        "passVerb": "arose",
+        "participeVerb": "arisen",
+        "inSpanish": "surgir, levantarse"
+    },
+    {
+        "baseVerb": "awake",
+        "passVerb": "awoke",
+        "participeVerb": "awoken",
+        "inSpanish": "despertar"
+    },
+    {
+        "baseVerb": "be",
+        "passVerb": "was/were",
+        "participeVerb": "been",
+        "inSpanish": "ser, estar"
+    },
+    {
+        "baseVerb": "bear",
+        "passVerb": "bore",
+        "participeVerb": "borne/born",
+        "inSpanish": "soportar, dar a luz"
+    },
+    {
+        "baseVerb": "beat",
+        "passVerb": "beat",
+        "participeVerb": "beaten",
+        "inSpanish": "golpear, vencer"
+    },
+    {
+        "baseVerb": "become",
+        "passVerb": "became",
+        "participeVerb": "become",
+        "inSpanish": "convertirse en"
+    },
+    {
+        "baseVerb": "begin",
+        "passVerb": "began",
+        "participeVerb": "begun",
+        "inSpanish": "empezar"
+    },
+    {
+        "baseVerb": "bend",
+        "passVerb": "bent",
+        "participeVerb": "bent",
+        "inSpanish": "doblar"
+    },
+    {
+        "baseVerb": "bet",
+        "passVerb": "bet",
+        "participeVerb": "bet",
+        "inSpanish": "apostar"
+    },
+    {
+        "baseVerb": "bind",
+        "passVerb": "bound",
+        "participeVerb": "bound",
+        "inSpanish": "atar, encuadernar"
+    },
+    {
+        "baseVerb": "bite",
+        "passVerb": "bit",
+        "participeVerb": "bitten",
+        "inSpanish": "morder"
+    },
+    {
+        "baseVerb": "bleed",
+        "passVerb": "bled",
+        "participeVerb": "bled",
+        "inSpanish": "sangrar"
+    },
+    {
+        "baseVerb": "blow",
+        "passVerb": "blew",
+        "participeVerb": "blown",
+        "inSpanish": "soplar"
+    },
+    {
+        "baseVerb": "break",
+        "passVerb": "broke",
+        "participeVerb": "broken",
+        "inSpanish": "romper"
+    },
+    {
+        "baseVerb": "breed",
+        "passVerb": "bred",
+        "participeVerb": "bred",
+        "inSpanish": "criar, reproducir"
+    },
+    {
+        "baseVerb": "bring",
+        "passVerb": "brought",
+        "participeVerb": "brought",
+        "inSpanish": "traer"
+    },
+    {
+        "baseVerb": "broadcast",
+        "passVerb": "broadcast",
+        "participeVerb": "broadcast",
+        "inSpanish": "transmitir"
+    },
+    {
+        "baseVerb": "build",
+        "passVerb": "built",
+        "participeVerb": "built",
+        "inSpanish": "construir"
+    },
+    {
+        "baseVerb": "burn",
+        "passVerb": "burnt/burned",
+        "participeVerb": "burnt/burned",
+        "inSpanish": "quemar"
+    },
+    {
+        "baseVerb": "burst",
+        "passVerb": "burst",
+        "participeVerb": "burst",
+        "inSpanish": "estallar"
+    },
+    {
+        "baseVerb": "buy",
+        "passVerb": "bought",
+        "participeVerb": "bought",
+        "inSpanish": "comprar"
+    },
+    {
+        "baseVerb": "cast",
+        "passVerb": "cast",
+        "participeVerb": "cast",
+        "inSpanish": "lanzar"
+    },
+    {
+        "baseVerb": "catch",
+        "passVerb": "caught",
+        "participeVerb": "caught",
+        "inSpanish": "atrapar"
+    },
+    {
+        "baseVerb": "choose",
+        "passVerb": "chose",
+        "participeVerb": "chosen",
+        "inSpanish": "elegir"
+    },
+    {
+        "baseVerb": "come",
+        "passVerb": "came",
+        "participeVerb": "come",
+        "inSpanish": "venir"
+    },
+    {
+        "baseVerb": "cost",
+        "passVerb": "cost",
+        "participeVerb": "cost",
+        "inSpanish": "costar"
+    },
+    {
+        "baseVerb": "cut",
+        "passVerb": "cut",
+        "participeVerb": "cut",
+        "inSpanish": "cortar"
+    },
+    {
+        "baseVerb": "deal",
+        "passVerb": "dealt",
+        "participeVerb": "dealt",
+        "inSpanish": "tratar"
+    },
+    {
+        "baseVerb": "dig",
+        "passVerb": "dug",
+        "participeVerb": "dug",
+        "inSpanish": "cavar"
+    },
+    {
+        "baseVerb": "do",
+        "passVerb": "did",
+        "participeVerb": "done",
+        "inSpanish": "hacer"
+    },
+    {
+        "baseVerb": "draw",
+        "passVerb": "drew",
+        "participeVerb": "drawn",
+        "inSpanish": "dibujar"
+    },
+    {
+        "baseVerb": "dream",
+        "passVerb": "dreamt/dreamed",
+        "participeVerb": "dreamt/dreamed",
+        "inSpanish": "soñar"
+    },
+    {
+        "baseVerb": "drink",
+        "passVerb": "drank",
+        "participeVerb": "drunk",
+        "inSpanish": "beber"
+    },
+    {
+        "baseVerb": "drive",
+        "passVerb": "drove",
+        "participeVerb": "driven",
+        "inSpanish": "conducir"
+    },
+    {
+        "baseVerb": "eat",
+        "passVerb": "ate",
+        "participeVerb": "eaten",
+        "inSpanish": "comer"
+    },
+    {
+        "baseVerb": "fall",
+        "passVerb": "fell",
+        "participeVerb": "fallen",
+        "inSpanish": "caer"
+    },
+    {
+        "baseVerb": "feed",
+        "passVerb": "fed",
+        "participeVerb": "fed",
+        "inSpanish": "alimentar"
+    },
+    {
+        "baseVerb": "feel",
+        "passVerb": "felt",
+        "participeVerb": "felt",
+        "inSpanish": "sentir"
+    },
+    {
+        "baseVerb": "fight",
+        "passVerb": "fought",
+        "participeVerb": "fought",
+        "inSpanish": "pelear"
+    },
+    {
+        "baseVerb": "find",
+        "passVerb": "found",
+        "participeVerb": "found",
+        "inSpanish": "encontrar"
+    },
+    {
+        "baseVerb": "fly",
+        "passVerb": "flew",
+        "participeVerb": "flown",
+        "inSpanish": "volar"
+    },
+    {
+        "baseVerb": "forget",
+        "passVerb": "forgot",
+        "participeVerb": "forgotten",
+        "inSpanish": "olvidar"
+    },
+    {
+        "baseVerb": "forgive",
+        "passVerb": "forgave",
+        "participeVerb": "forgiven",
+        "inSpanish": "perdonar"
+    },
+    {
+        "baseVerb": "freeze",
+        "passVerb": "froze",
+        "participeVerb": "frozen",
+        "inSpanish": "congelar"
+    },
+    {
+        "baseVerb": "get",
+        "passVerb": "got",
+        "participeVerb": "gotten",
+        "inSpanish": "obtener"
+    },
+    {
+        "baseVerb": "give",
+        "passVerb": "gave",
+        "participeVerb": "given",
+        "inSpanish": "dar"
+    },
+    {
+        "baseVerb": "go",
+        "passVerb": "went",
+        "participeVerb": "gone",
+        "inSpanish": "ir"
+    },
+    {
+        "baseVerb": "grind",
+        "passVerb": "ground",
+        "participeVerb": "ground",
+        "inSpanish": "moler"
+    },
+    {
+        "baseVerb": "grow",
+        "passVerb": "grew",
+        "participeVerb": "grown",
+        "inSpanish": "crecer"
+    },
+    {
+        "baseVerb": "hang",
+        "passVerb": "hung",
+        "participeVerb": "hung",
+        "inSpanish": "colgar"
+    },
+    {
+        "baseVerb": "have",
+        "passVerb": "had",
+        "participeVerb": "had",
+        "inSpanish": "tener"
+    },
+    {
+        "baseVerb": "hear",
+        "passVerb": "heard",
+        "participeVerb": "heard",
+        "inSpanish": "oír"
+    },
+    {
+        "baseVerb": "hide",
+        "passVerb": "hid",
+        "participeVerb": "hidden",
+        "inSpanish": "esconder"
+    },
+    {
+        "baseVerb": "hit",
+        "passVerb": "hit",
+        "participeVerb": "hit",
+        "inSpanish": "golpear"
+    },
+    {
+        "baseVerb": "hold",
+        "passVerb": "held",
+        "participeVerb": "held",
+        "inSpanish": "sostener"
+    },
+    {
+        "baseVerb": "hurt",
+        "passVerb": "hurt",
+        "participeVerb": "hurt",
+        "inSpanish": "herir"
+    },
+    {
+        "baseVerb": "keep",
+        "passVerb": "kept",
+        "participeVerb": "kept",
+        "inSpanish": "mantener"
+    },
+    {
+        "baseVerb": "know",
+        "passVerb": "knew",
+        "participeVerb": "known",
+        "inSpanish": "saber, conocer"
+    },
+    {
+        "baseVerb": "lay",
+        "passVerb": "laid",
+        "participeVerb": "laid",
+        "inSpanish": "colocar"
+    },
+    {
+        "baseVerb": "lead",
+        "passVerb": "led",
+        "participeVerb": "led",
+        "inSpanish": "liderar"
+    },
+    {
+        "baseVerb": "leave",
+        "passVerb": "left",
+        "participeVerb": "left",
+        "inSpanish": "dejar"
+    },
+    {
+        "baseVerb": "lend",
+        "passVerb": "lent",
+        "participeVerb": "lent",
+        "inSpanish": "prestar"
+    },
+    {
+        "baseVerb": "let",
+        "passVerb": "let",
+        "participeVerb": "let",
+        "inSpanish": "permitir"
+    },
+    {
+        "baseVerb": "lie",
+        "passVerb": "lay",
+        "participeVerb": "lain",
+        "inSpanish": "mentir, acostarse"
+    },
+    {
+        "baseVerb": "light",
+        "passVerb": "lit/lighted",
+        "participeVerb": "lit/lighted",
+        "inSpanish": "encender"
+    },
+    {
+        "baseVerb": "lose",
+        "passVerb": "lost",
+        "participeVerb": "lost",
+        "inSpanish": "perder"
+    },
+    {
+        "baseVerb": "make",
+        "passVerb": "made",
+        "participeVerb": "made",
+        "inSpanish": "hacer"
+    },
+    {
+        "baseVerb": "mean",
+        "passVerb": "meant",
+        "participeVerb": "meant",
+        "inSpanish": "significar"
+    },
+    {
+        "baseVerb": "meet",
+        "passVerb": "met",
+        "participeVerb": "met",
+        "inSpanish": "conocer, encontrarse con"
+    },
+    {
+        "baseVerb": "pay",
+        "passVerb": "paid",
+        "participeVerb": "paid",
+        "inSpanish": "pagar"
+    },
+    {
+        "baseVerb": "put",
+        "passVerb": "put",
+        "participeVerb": "put",
+        "inSpanish": "poner"
+    },
+    {
+        "baseVerb": "read",
+        "passVerb": "read",
+        "participeVerb": "read",
+        "inSpanish": "leer"
+    },
+    {
+        "baseVerb": "ride",
+        "passVerb": "rode",
+        "participeVerb": "ridden",
+        "inSpanish": "montar"
+    },
+    {
+        "baseVerb": "ring",
+        "passVerb": "rang",
+        "participeVerb": "rung",
+        "inSpanish": "sonar"
+    },
+    {
+        "baseVerb": "rise",
+        "passVerb": "rose",
+        "participeVerb": "risen",
+        "inSpanish": "elevarse"
+    },
+    {
+        "baseVerb": "run",
+        "passVerb": "ran",
+        "participeVerb": "run",
+        "inSpanish": "correr"
+    },
+    {
+        "baseVerb": "say",
+        "passVerb": "said",
+        "participeVerb": "said",
+        "inSpanish": "decir"
+    },
+    {
+        "baseVerb": "see",
+        "passVerb": "saw",
+        "participeVerb": "seen",
+        "inSpanish": "ver"
+    },
+    {
+        "baseVerb": "sell",
+        "passVerb": "sold",
+        "participeVerb": "sold",
+        "inSpanish": "vender"
+    },
+    {
+        "baseVerb": "send",
+        "passVerb": "sent",
+        "participeVerb": "sent",
+        "inSpanish": "enviar"
+    },
+    {
+        "baseVerb": "set",
+        "passVerb": "set",
+        "participeVerb": "set",
+        "inSpanish": "colocar"
+    },
+    {
+        "baseVerb": "shake",
+        "passVerb": "shook",
+        "participeVerb": "shaken",
+        "inSpanish": "agitar"
+    },
+    {
+        "baseVerb": "shoot",
+        "passVerb": "shot",
+        "participeVerb": "shot",
+        "inSpanish": "disparar"
+    },
+    {
+        "baseVerb": "show",
+        "passVerb": "showed",
+        "participeVerb": "shown",
+        "inSpanish": "mostrar"
+    },
+    {
+        "baseVerb": "sing",
+        "passVerb": "sang",
+        "participeVerb": "sung",
+        "inSpanish": "cantar"
+    },
+    {
+        "baseVerb": "sit",
+        "passVerb": "sat",
+        "participeVerb": "sat",
+        "inSpanish": "sentarse"
+    },
+    {
+        "baseVerb": "sleep",
+        "passVerb": "slept",
+        "participeVerb": "slept",
+        "inSpanish": "dormir"
+    },
+    {
+        "baseVerb": "speak",
+        "passVerb": "spoke",
+        "participeVerb": "spoken",
+        "inSpanish": "hablar"
+    },
+    {
+        "baseVerb": "spend",
+        "passVerb": "spent",
+        "participeVerb": "spent",
+        "inSpanish": "gastar"
+    },
+    {
+        "baseVerb": "stand",
+        "passVerb": "stood",
+        "participeVerb": "stood",
+        "inSpanish": "estar de pie"
+    },
+    {
+        "baseVerb": "steal",
+        "passVerb": "stole",
+        "participeVerb": "stolen",
+        "inSpanish": "robar"
+    },
+    {
+        "baseVerb": "swim",
+        "passVerb": "swam",
+        "participeVerb": "swum",
+        "inSpanish": "nadar"
+    },
+    {
+        "baseVerb": "take",
+        "passVerb": "took",
+        "participeVerb": "taken",
+        "inSpanish": "tomar"
+    },
+    {
+        "baseVerb": "teach",
+        "passVerb": "taught",
+        "participeVerb": "taught",
+        "inSpanish": "enseñar"
+    },
+    {
+        "baseVerb": "tell",
+        "passVerb": "told",
+        "participeVerb": "told",
+        "inSpanish": "decir"
+    },
+    {
+        "baseVerb": "think",
+        "passVerb": "thought",
+        "participeVerb": "thought",
+        "inSpanish": "pensar"
+    },
+    {
+        "baseVerb": "throw",
+        "passVerb": "threw",
+        "participeVerb": "thrown",
+        "inSpanish": "lanzar"
+    },
+    {
+        "baseVerb": "understand",
+        "passVerb": "understood",
+        "participeVerb": "understood",
+        "inSpanish": "entender"
+    },
+    {
+        "baseVerb": "wear",
+        "passVerb": "wore",
+        "participeVerb": "worn",
+        "inSpanish": "usar (ropa)"
+    },
+    {
+        "baseVerb": "win",
+        "passVerb": "won",
+        "participeVerb": "won",
+        "inSpanish": "ganar"
+    },
+    {
+        "baseVerb": "write",
+        "passVerb": "wrote",
+        "participeVerb": "written",
+        "inSpanish": "escribir"
+    }
+]
