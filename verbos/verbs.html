@@ -22,6 +22,7 @@
     <table border="1" style="border-collapse: collapse;">
         <thead>
             <tr>
+                <th>Nro.</th>
                 <th>Base</th>
                 <th>Pasado</th>
                 <th>Participio</th>
@@ -36,16 +37,18 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const tableBody = document.getElementById("verbsTableBody");
-            
+            var i = 1;
             verbs.forEach(verb => {
                 const row = document.createElement("tr");
                 row.innerHTML = `
+                    <td>${i}</td>
                     <td>${verb.baseVerb}</td>
                     <td>${verb.passVerb}</td>
                     <td>${verb.participeVerb}</td>
                     <td>${verb.inSpanish}</td>
                 `;
                 tableBody.appendChild(row);
+                i = i + 1;
             });
         });
         
