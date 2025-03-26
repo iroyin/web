@@ -1,4 +1,5 @@
 let verbs = [];
+let verbsTemp = [];
 let currentVerb = {};
 let answered = false; // Flag para controlar el estado de la respuesta
 let totalAttempts = 0;
@@ -18,6 +19,7 @@ function guardarArreglos() {
     localStorage.setItem("arrTreintaytres", JSON.stringify(arrTreintaytres));
     localStorage.setItem("arrSesentayseis", JSON.stringify(arrSesentayseis));
     localStorage.setItem("arrCien", JSON.stringify(arrCien));
+    localStorage.setItem("verbsTemp", JSON.stringify(verbsTemp));
 }
 
 // Función para recuperar los datos del localStorage
@@ -30,6 +32,7 @@ function cargarArreglos() {
     arrTreintaytres = JSON.parse(localStorage.getItem("arrTreintaytres")) || [];
     arrSesentayseis = JSON.parse(localStorage.getItem("arrSesentayseis")) || [];
     arrCien = JSON.parse(localStorage.getItem("arrCien")) || [];
+    verbsTemp = JSON.parse(localStorage.getItem("verbsTemp")) || [];
 
     setCount('none', arrNone);
     setCount('treintaytres', arrTreintaytres);
@@ -47,6 +50,10 @@ getRandomVerb();
 
 function getRandomVerb() {
     currentVerb = verbs[Math.floor(Math.random() * verbs.length)];
+    
+    if(verifiedIfExistElement(verbsTemp, currentVerb.baseVerb)){
+        getRandomVerb();
+    }
     
     // Muestra el significado del verbo en español
     document.getElementById('verb-meaning').textContent = currentVerb.inSpanish;
@@ -125,6 +132,8 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
         
         document.getElementById('checkAnswer').textContent = 'Continuar';
         answered = true;
+
+        addElementIfNotExist(verbsTemp, currentVerb.baseVerb);
     } else {
         getRandomVerb();
     }
@@ -187,7 +196,6 @@ function removeElement(arrayToRemoveElement, verb){
 function addElementIfNotExist(arrToAddElement, verb) {
     if (!arrToAddElement.includes(verb)) {
         arrToAddElement.push(verb);
-        console.log(arrToAddElement);
     }
 }
 
@@ -212,4 +220,13 @@ document.getElementById('viewVerbs').addEventListener('click', goToVerbsPage);
 function playSound(sonido) {
     sonido.currentTime = 0;
     sonido.play();
+}
+
+function verifiedIfExistElement(array, verb){
+    console.log(verbsTemp);
+    let index = array.indexOf(verb);
+    if (index !== -1) {
+        return true;
+    }
+    return false; 
 }
