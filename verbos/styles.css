@@ -56,6 +56,16 @@ button:hover {
     font-size: 0.9em;
 }
 
+.headVerb {
+    background-color: #D6E6FF;
+    color: #355070;
+    padding: 10px;
+    border-left: 5px solid #D0E4FF;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
 
 h1 {
     color: #333;
