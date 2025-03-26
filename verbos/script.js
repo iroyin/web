@@ -9,6 +9,7 @@ let arrTreintaytres = [];
 let arrSesentayseis = [];
 let arrCien = [];
 
+const sonidoClick = new Audio("click.mp3");
 const sonidoResultado = new Audio("resultado.mp3");
 
 // Función para guardar en localStorage
@@ -65,6 +66,7 @@ function getRandomVerb() {
 }
 
 document.getElementById('checkAnswer').addEventListener('click', () => {
+    playSound(sonidoClick);
     if (!answered) {
         const baseInput = document.getElementById('baseVerb');
         const pastInput = document.getElementById('pastVerb');
@@ -201,6 +203,7 @@ function resetFields() {
 }
 
 function goToVerbsPage() {
+    playSound(sonidoClick);
     window.location.href = 'verbs.html';
 }
 
