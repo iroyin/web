@@ -4,6 +4,40 @@ let answered = false; // Flag para controlar el estado de la respuesta
 let totalAttempts = 0;
 let totalCorrect = 0;
 
+let arrNone = [];
+let arrTreintaytres = [];
+let arrSesentayseis = [];
+let arrCien = [];
+
+// Función para guardar en localStorage
+function guardarArreglos() {
+    localStorage.setItem("arrNone", JSON.stringify(arrNone));
+    localStorage.setItem("arrTreintaytres", JSON.stringify(arrTreintaytres));
+    localStorage.setItem("arrSesentayseis", JSON.stringify(arrSesentayseis));
+    localStorage.setItem("arrCien", JSON.stringify(arrCien));
+}
+
+// Función para recuperar los datos del localStorage
+function cargarArreglos() {
+
+    setCount('totalVerbs', verbs);
+    setCount('totalVerbsNote', verbs);
+
+    arrNone = JSON.parse(localStorage.getItem("arrNone")) || [];
+    arrTreintaytres = JSON.parse(localStorage.getItem("arrTreintaytres")) || [];
+    arrSesentayseis = JSON.parse(localStorage.getItem("arrSesentayseis")) || [];
+    arrCien = JSON.parse(localStorage.getItem("arrCien")) || [];
+
+    setCount('none', arrNone);
+    setCount('treintaytres', arrTreintaytres);
+    setCount('sesentayseis', arrSesentayseis);
+    setCount('cien', arrCien);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    cargarArreglos();
+});
+
 // Importa los verbos directamente desde el archivo verbs.js
 verbs = window.verbs;
 getRandomVerb();
@@ -72,6 +106,7 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
         totalCorrect += accuracy;
 
         document.getElementById('resultCore').textContent = `Acierto: ${accuracy.toFixed(2)}%`;
+        verificarResultado(accuracy.toFixed(2), currentVerb.baseVerb);
 
         if (isCorrect) {
             document.getElementById('resultMessage').textContent = '¡Correcto!';
@@ -88,6 +123,67 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
         getRandomVerb();
     }
 });
+
+function verificarResultado(accurancy, verb){
+    if(Math.trunc(accurancy) === 0){
+        addElementIfNotExist(arrNone, verb);
+
+        //removeElement
+        removeElement(arrTreintaytres, verb);
+        removeElement(arrSesentayseis, verb);
+        removeElement(arrCien, verb);
+
+        setCount('none', arrNone);
+    }else if(Math.trunc(accurancy) === 33){
+        addElementIfNotExist(arrTreintaytres, verb);
+
+        //removeElement
+        removeElement(arrNone, verb);
+        removeElement(arrSesentayseis, verb);
+        removeElement(arrCien, verb);
+
+        setCount('treintaytres', arrTreintaytres);
+    }else if(Math.trunc(accurancy) === 66){
+        addElementIfNotExist(arrSesentayseis, verb);
+
+        //removeElement
+        removeElement(arrNone, verb);
+        removeElement(arrTreintaytres, verb);
+        removeElement(arrCien, verb);
+
+        setCount('sesentayseis', arrSesentayseis);
+    }else{
+        addElementIfNotExist(arrCien, verb);
+
+        //removeElement
+        removeElement(arrNone, verb);
+        removeElement(arrTreintaytres, verb);
+        removeElement(arrSesentayseis, verb);
+
+        setCount('cien', arrCien);
+    }
+
+    guardarArreglos();
+}
+
+function setCount(element, array){
+    document.getElementById(element).textContent = `${array.length}`;
+}
+
+function removeElement(arrayToRemoveElement, verb){
+    let index = arrayToRemoveElement.indexOf(verb);
+    if (index !== -1) {
+        arrayToRemoveElement.splice(index, 1);
+        console.log(arrayToRemoveElement);
+    } 
+}
+
+function addElementIfNotExist(arrToAddElement, verb) {
+    if (!arrToAddElement.includes(verb)) {
+        arrToAddElement.push(verb);
+        console.log(arrToAddElement);
+    }
+}
 
 // Función para restablecer los estilos antes de la siguiente palabra
 function resetFields() {
