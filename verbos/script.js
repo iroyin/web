@@ -9,6 +9,8 @@ let arrTreintaytres = [];
 let arrSesentayseis = [];
 let arrCien = [];
 
+const sonidoResultado = new Audio("resultado.mp3");
+
 // Función para guardar en localStorage
 function guardarArreglos() {
     localStorage.setItem("arrNone", JSON.stringify(arrNone));
@@ -116,6 +118,8 @@ document.getElementById('checkAnswer').addEventListener('click', () => {
                 `Incorrecto, la respuesta correcta es: ${currentVerb.baseVerb}, ${currentVerb.passVerb}, ${currentVerb.participeVerb}`;
             document.getElementById('resultMessage').className = 'incorrect';
         }
+
+        playSound(sonidoResultado);
         
         document.getElementById('checkAnswer').textContent = 'Continuar';
         answered = true;
@@ -201,3 +205,8 @@ function goToVerbsPage() {
 }
 
 document.getElementById('viewVerbs').addEventListener('click', goToVerbsPage);
+
+function playSound(sonido) {
+    sonido.currentTime = 0;
+    sonido.play();
+}
