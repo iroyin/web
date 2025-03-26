@@ -34,6 +34,10 @@ function cargarArreglos() {
     arrCien = JSON.parse(localStorage.getItem("arrCien")) || [];
     verbsTemp = JSON.parse(localStorage.getItem("verbsTemp")) || [];
 
+    if(verbsTemp.length >= verbs.length){
+        verbsTemp = [];
+    }
+
     setCount('none', arrNone);
     setCount('treintaytres', arrTreintaytres);
     setCount('sesentayseis', arrSesentayseis);
