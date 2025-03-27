@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Phrasal Verbs</title>
+    <link rel="stylesheet" href="styleVerbs.css">
+    <style>
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button">
+        <button onclick="goBack()">Volver</button>
+    </div>
+    <h1>Lista de Phrasal Verbs</h1>
+    <br><br>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Nro.</th>
+                <th>Frase Uno</th>
+                <th>Frase Dos</th>
+                <th>Significado</th>
+            </tr>
+        </thead>
+        <tbody id="verbsTableBody">
+            <!-- Aquí se insertarán los verbos dinámicamente -->
+        </tbody>
+    </table>
+    <script src="verbs.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const tableBody = document.getElementById("verbsTableBody");
+            var i = 1;
+            verbs.forEach(verb => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${i}</td>
+                    <td>${verb.phaseOne}</td>
+                    <td>${verb.phaseTwo}</td>
+                    <td>${verb.inSpanish}</td>
+                `;
+                tableBody.appendChild(row);
+                i = i + 1;
+            });
+        });
+
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

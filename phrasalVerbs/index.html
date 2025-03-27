@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Phrasal Verbs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Phrasal Verbs</h1>
+        <div class="headVerb" align="center"> 
+            <h2 id="verb-meaning">Significado del Phrasal Verbs</h2>
+        </div>
+        <input type="text" id="onePhase" placeholder="Phrase One">
+        <input type="text" id="twoPhase" placeholder="Phrase Two">
+        <p id="resultMessage"></p>
+        <p id="resultCore"></p>
+        <button id="checkAnswer">Verificar</button>
+        <br><br>
+        <p>Total de Verbos: <b id="totalVerbs"></b></p>
+        <table>
+            <thead>
+                <tr>
+                    <td><center>0%</center></td>
+                    <td><center>50%</center></td>
+                    <td><center>100%</center></td>
+                </tr>
+            </thead>
+            <tbody>
+                <td><center><p id="none">0</p></center></td>
+                <td><center><p id="cincuenta">0</p></center></td>
+                <td><center><p id="cien">0</p></center></td>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <div class="nota" align="left"> 
+            <strong>Instrucciones:</strong> Debe hacer al menos un intento para poder pasar al siguiente verbo.
+            <br><br>
+            <strong>Score:</strong> En la columna 100%, cuando tenga el valor de <b id="totalVerbsNote"></b>, significa que ya conoces todos los verbos. Las otras columnas irán disminuyendo su valor a medida que vayas corrigiendo los verbos que tenías mal.
+            <br><br>
+            <strong>Importante:</strong> En algunas ocaciones, el bjeto podría estar en medio de las dos palabras del Phasal Verbs, en otra ocaciones podría estar al final de ambas frases.
+            <br><br>
+            <strong>Lista de verbos:</strong> Debe hacer clic en el botón "Ver Verbos" para ver el listado.
+            <br><br>
+        </div>
+
+        <button id="viewVerbs">Ver Verbos</button>
+        
+    </div>
+    <script src="verbs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
